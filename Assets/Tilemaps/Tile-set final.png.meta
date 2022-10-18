@@ -1,0 +1,1236 @@
+fileFormatVersion: 2
+guid: cf6b097fc93cf1e44be6a96d67b47d07
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2277995157423322846
+    second: Head-Down
+  - first:
+      213: -3389849567031921578
+    second: Head-Open-Down
+  - first:
+      213: 2586301135242521068
+    second: Head-Eating-Down
+  - first:
+      213: -9071241635767526916
+    second: Head-Entering-Down
+  - first:
+      213: 7477903661841271689
+    second: Head-Leaving-Down
+  - first:
+      213: 1577752976170339000
+    second: Body-Down
+  - first:
+      213: -6663114007288243549
+    second: Body-turning-DownRight
+  - first:
+      213: 1414756091791533751
+    second: Tail-Down
+  - first:
+      213: -1865052747340508423
+    second: Body-Entering-Down
+  - first:
+      213: 2543525842015890873
+    second: Tail-Entering-Down
+  - first:
+      213: 4946227707867821353
+    second: Body-Under-Horizontal
+  - first:
+      213: 1353551982470699024
+    second: Head-Right
+  - first:
+      213: -3016300419699543889
+    second: Head-Open-Right
+  - first:
+      213: -2889820285593211914
+    second: Head-Eating-Right
+  - first:
+      213: 4076942640829046206
+    second: Head-Entering-Right
+  - first:
+      213: -1731273282626153571
+    second: Head-Leaving-Right
+  - first:
+      213: -4068857264332942513
+    second: Body-Right
+  - first:
+      213: -8388335786068156705
+    second: Body-turning-RightUp
+  - first:
+      213: 5321414387933496475
+    second: Tail-Right
+  - first:
+      213: -1474850013478463704
+    second: Body-Entering-Right
+  - first:
+      213: 5916953213444647329
+    second: Tail-Entering-Right
+  - first:
+      213: 3306267754145866621
+    second: Body-Under-Horizontal
+  - first:
+      213: 7193761296952593075
+    second: Head-Entering-Up
+  - first:
+      213: 8597762312680160760
+    second: Body-Up
+  - first:
+      213: 3150851987492707902
+    second: Body-turning-UpLeft
+  - first:
+      213: -3225891541899252920
+    second: Tail-Up
+  - first:
+      213: -8199462775320361888
+    second: Body-Entering-Up
+  - first:
+      213: 3268267396728758620
+    second: Tail-Entering-Up
+  - first:
+      213: -7318262219132464015
+    second: Body-Under-Turning
+  - first:
+      213: 6599988539887561565
+    second: Head-Up
+  - first:
+      213: -552594905468335966
+    second: Head-Open-Up
+  - first:
+      213: 5999989506460748097
+    second: Head-Eating-Up
+  - first:
+      213: 3218436238187314210
+    second: Head-Leaving-Up
+  - first:
+      213: -3677634802174806927
+    second: Body-Left
+  - first:
+      213: -7881289785890243942
+    second: Body-turning-LeftDown
+  - first:
+      213: 7887837718275711443
+    second: Tail-Left
+  - first:
+      213: 7103538363222828885
+    second: Body-Entering-Left
+  - first:
+      213: 4560334658692696521
+    second: Tail-Entering-Left
+  - first:
+      213: -9020728686103340959
+    second: Head-Left
+  - first:
+      213: 2526392935906708749
+    second: Head-Open-Left
+  - first:
+      213: -5487720773832702740
+    second: Head-Eating-Left
+  - first:
+      213: 2183103035117069136
+    second: Head-Entering-Left
+  - first:
+      213: -2650760870699884478
+    second: Head-Leaving-Left
+  - first:
+      213: 4901299110693818850
+    second: Head-Under-Down
+  - first:
+      213: -5807501586410842427
+    second: Head-Under-Up
+  - first:
+      213: -3949869137553101469
+    second: Head-Under-Right
+  - first:
+      213: -2639269580235569984
+    second: Head-Under-Left
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Head-Down
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 50
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22909b1497fe260e0800000000000000
+      internalID: -2277995157423322846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Open-Down
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 50
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654fc0b67c5d4f0d0800000000000000
+      internalID: -3389849567031921578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Eating-Down
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 51
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9e1500e2364e320800000000000000
+      internalID: 2586301135242521068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Entering-Down
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 52
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9d7543bc97c1280800000000000000
+      internalID: -9071241635767526916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Leaving-Down
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 50
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b44a4c2c9d6c760800000000000000
+      internalID: 7477903661841271689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body-Down
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bac2f7f8fd45e510800000000000000
+      internalID: 1577752976170339000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body-turning-DownRight
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa97a1fc1dd783a0800000000000000
+      internalID: -6663114007288243549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tail-Down
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6ed077b2932a310800000000000000
+      internalID: 1414756091791533751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body-Entering-Down
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2176368600e16e0800000000000000
+      internalID: -1865052747340508423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tail-Entering-Down
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd2262f64b6c4320800000000000000
+      internalID: 2543525842015890873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body-Under-Vertical
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925f7a1e4e784a440800000000000000
+      internalID: 4946227707867821353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Right
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018113c4b58c8c210800000000000000
+      internalID: 1353551982470699024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Open-Right
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 37
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa072f3dfb2f326d0800000000000000
+      internalID: -3016300419699543889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Eating-Right
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 37
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbaf7cd2cb45e7d0800000000000000
+      internalID: -2889820285593211914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Entering-Right
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 40
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd12443bb5349830800000000000000
+      internalID: 4076942640829046206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Leaving-Right
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 36
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9391f34f1849f7e0800000000000000
+      internalID: -1731273282626153571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body-Right
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43daa530e38887c0800000000000000
+      internalID: -4068857264332942513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body-turning-RightUp
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fded5bebb05a69b80800000000000000
+      internalID: -8388335786068156705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tail-Right
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94cd67113679d940800000000000000
+      internalID: 5321414387933496475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body-Entering-Right
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827d2a11ab7488be0800000000000000
+      internalID: -1474850013478463704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tail-Entering-Right
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a969f7299d3d1250800000000000000
+      internalID: 5916953213444647329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body-Under-Horizontal
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73613a410932ed20800000000000000
+      internalID: 3306267754145866621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Entering-Up
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 28
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba00df09cf55d360800000000000000
+      internalID: 7193761296952593075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body-Up
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdba8e3543615770800000000000000
+      internalID: 8597762312680160760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body-turning-UpLeft
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e165e40331abb20800000000000000
+      internalID: 3150851987492707902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tail-Up
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b6821fbb45b33d0800000000000000
+      internalID: -3225891541899252920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body-Entering-Up
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064cdf76c08a53e80800000000000000
+      internalID: -8199462775320361888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tail-Entering-Up
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51220d91e73b5d20800000000000000
+      internalID: 3268267396728758620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body-Under-Turning
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1749277194f407a90800000000000000
+      internalID: -7318262219132464015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Up
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 23
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ba5a9db9ed79b50800000000000000
+      internalID: 6599988539887561565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Open-Up
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 23
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a88eda7cd9c458f0800000000000000
+      internalID: -552594905468335966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Eating-Up
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 23
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1490aa4baae344350800000000000000
+      internalID: 5999989506460748097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Leaving-Up
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 21
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c3665e4be2aac20800000000000000
+      internalID: 3218436238187314210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body-Left
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174b1c2e1aa66fcc0800000000000000
+      internalID: -3677634802174806927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body-turning-LeftDown
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9af81452b800a290800000000000000
+      internalID: -7881289785890243942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tail-Left
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d160cbfc9a377d60800000000000000
+      internalID: 7887837718275711443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Body-Entering-Left
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557a1445186d49260800000000000000
+      internalID: 7103538363222828885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tail-Entering-Left
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9c74cd530994f30800000000000000
+      internalID: 4560334658692696521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Left
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 10
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16852a9cd0fefc280800000000000000
+      internalID: -9020728686103340959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Open-Left
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 10
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d86c36dfc8f0320800000000000000
+      internalID: 2526392935906708749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Eating-Left
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 10
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce48b290803b7d3b0800000000000000
+      internalID: -5487720773832702740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Entering-Left
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 16
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053ea34d4a0fb4e10800000000000000
+      internalID: 2183103035117069136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Leaving-Left
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 7
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240ad6d480b963bd0800000000000000
+      internalID: -2650760870699884478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Under-Down
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 15
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1d7dea299e40440800000000000000
+      internalID: 4901299110693818850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Under-Up
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 15
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6d67d931c976fa0800000000000000
+      internalID: -5807501586410842427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Under-Right
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 4
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d6eda52fe3f29c0800000000000000
+      internalID: -3949869137553101469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head-Under-Left
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 4
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4809bdc4e6f5bd0800000000000000
+      internalID: -2639269580235569984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
