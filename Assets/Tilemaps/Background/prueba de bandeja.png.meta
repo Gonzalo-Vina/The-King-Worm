@@ -135,7 +135,7 @@ TextureImporter:
       213: 6150305295023111590
     second: prueba de bandeja_43
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -156,6 +156,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -194,6 +195,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -209,6 +211,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1156,6 +1170,51 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      prueba de bandeja_35: -3714036378328209080
+      prueba de bandeja_12: 5053229461747356577
+      prueba de bandeja_38: -1387682319785416535
+      prueba de bandeja_7: -535410261200144432
+      prueba de bandeja_11: 5204735104808685144
+      prueba de bandeja_39: 781101800228377366
+      prueba de bandeja_16: 2032546962849500130
+      prueba de bandeja_1: 6782638230390864008
+      prueba de bandeja_2: 4319416427579211428
+      prueba de bandeja_25: -4469613065834445819
+      prueba de bandeja_4: -5762684201344729306
+      prueba de bandeja_22: -5758548208704924634
+      prueba de bandeja_6: -6322988407627525913
+      prueba de bandeja_15: -5994743106701778038
+      prueba de bandeja_19: -1352140397591781266
+      prueba de bandeja_8: -4139412461777320145
+      prueba de bandeja_40: 4390954401780427252
+      prueba de bandeja_24: -8772952811587590024
+      prueba de bandeja_0: 930480359271358652
+      prueba de bandeja_23: -8401194390367827016
+      prueba de bandeja_32: 5077003945624158572
+      prueba de bandeja_29: -2291201687855693156
+      prueba de bandeja_5: -419800763114800742
+      prueba de bandeja_28: -5130947099236792764
+      prueba de bandeja_14: 5880418937345066199
+      prueba de bandeja_9: 4855680350709711288
+      prueba de bandeja_20: -4001808675603919366
+      prueba de bandeja_26: -6757538181681767763
+      prueba de bandeja_30: -3111197664055688443
+      prueba de bandeja_27: 6220614793862502350
+      prueba de bandeja_36: -5528729555101101465
+      prueba de bandeja_3: 4639828362134779050
+      prueba de bandeja_37: -3419419069079443623
+      prueba de bandeja_13: -8695967814605872143
+      prueba de bandeja_41: 4929903313922900963
+      prueba de bandeja_34: -2946817856587449504
+      prueba de bandeja_33: 2423444686166715140
+      prueba de bandeja_43: 6150305295023111590
+      prueba de bandeja_10: -3551434772847541772
+      prueba de bandeja_18: -833759357787799299
+      prueba de bandeja_21: -872672937571299114
+      prueba de bandeja_17: -5911980698184637570
+      prueba de bandeja_31: 2950227293043492167
+      prueba de bandeja_42: -3896374584098167472
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

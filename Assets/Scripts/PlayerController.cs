@@ -17,6 +17,9 @@ public class PlayerController : MonoBehaviour
     [HideInInspector] public bool overGround = true;
     bool changeDirection = true;
 
+    [SerializeField] AudioClip mainSound;
+    [SerializeField] AudioSource audioSource;
+
     [SerializeField] FoodManager food;
     [SerializeField] GameController gameController;
 
@@ -53,6 +56,7 @@ public class PlayerController : MonoBehaviour
         body[0].position = transform.position + Vector3.down;
         tail.position = transform.position + (Vector3.down*2);
         food.CreateFood();
+        audioSource.PlayOneShot(mainSound);
     }
 
     void Update()
@@ -63,7 +67,7 @@ public class PlayerController : MonoBehaviour
 
         SelectDirection();
         SetVelMovement();
-        HidePlayer();
+        //HidePlayer();
         
         if(Time.timeScale == 0 && Input.GetKey(KeyCode.Space))
         {
@@ -238,11 +242,13 @@ public class PlayerController : MonoBehaviour
         {
 
             gameController.PauseGame();
-            
+            audioSource.Stop();
+
         }
         else if (collision.gameObject.tag == "Body" && overGround == true)
         {
             gameController.PauseGame();
+            audioSource.Stop();
         }
     }
     #endregion

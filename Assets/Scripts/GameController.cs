@@ -25,4 +25,14 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1;
         backgroundDarkCanvas.SetActive(false);
     }
+
+    public void AgainStar()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
+    }
+
+    public void BackHome()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
+    }
 }

@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Worm-atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 7887837718275711443, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 2586301135242521068, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 2183103035117069136, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 1577752976170339000, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 7103538363222828885, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -552594905468335966, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -4068857264332942513, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -2639269580235569984, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -5487720773832702740, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 4076942640829046206, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 4946227707867821353, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -3225891541899252920, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -8388335786068156705, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -3949869137553101469, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 2526392935906708749, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -3677634802174806927, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 2543525842015890873, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 3218436238187314210, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -1731273282626153571, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -9071241635767526916, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -8199462775320361888, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 1414756091791533751, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -2650760870699884478, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -3389849567031921578, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 6599988539887561565, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -2889820285593211914, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 5321414387933496475, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 4901299110693818850, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 5916953213444647329, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 7477903661841271689, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 7193761296952593075, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -7881289785890243942, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -7551315089737639077, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 8597762312680160760, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -3016300419699543889, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -1474850013478463704, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -1865052747340508423, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -9020728686103340959, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -7318262219132464015, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 1353551982470699024, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 5999989506460748097, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 4560334658692696521, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -5807501586410842427, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 3150851987492707902, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -6663114007288243549, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: -2277995157423322846, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  - {fileID: 3268267396728758620, guid: cf6b097fc93cf1e44be6a96d67b47d07, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Tail-Left
+  - Head-Eating-Down
+  - Head-Entering-Left
+  - Body-Down
+  - Body-Entering-Left
+  - Head-Open-Up
+  - Body-Right
+  - Head-Under-Left
+  - Head-Eating-Left
+  - Head-Entering-Right
+  - Body-Under-Horizontal
+  - Tail-Up
+  - Body-turning-RightUp
+  - Head-Under-Right
+  - Head-Open-Left
+  - Body-Left
+  - Tail-Entering-Down
+  - Head-Leaving-Up
+  - Head-Leaving-Right
+  - Head-Entering-Down
+  - Body-Entering-Up
+  - Tail-Down
+  - Head-Leaving-Left
+  - Head-Open-Down
+  - Head-Up
+  - Head-Eating-Right
+  - Tail-Right
+  - Head-Under-Down
+  - Tail-Entering-Right
+  - Head-Leaving-Down
+  - Head-Entering-Up
+  - Body-turning-LeftDown
+  - Body-Under-Vertical
+  - Body-Up
+  - Head-Open-Right
+  - Body-Entering-Right
+  - Body-Entering-Down
+  - Head-Left
+  - Body-Under-Turning
+  - Head-Right
+  - Head-Eating-Up
+  - Tail-Entering-Left
+  - Head-Under-Up
+  - Body-turning-UpLeft
+  - Body-turning-DownRight
+  - Head-Down
+  - Tail-Entering-Up
+  m_RenderDataMap: {}
+  m_Tag: Worm-atlas
+  m_IsVariant: 0

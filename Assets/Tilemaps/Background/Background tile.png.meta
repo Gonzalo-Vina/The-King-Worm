@@ -99,7 +99,7 @@ TextureImporter:
       213: -967584760586842980
     second: Background tile_31
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -120,6 +120,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -158,6 +159,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -173,6 +175,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -868,6 +882,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Background tile_13: 4080474163026478212
+      Background tile_2: 4885647443880840912
+      Background tile_1: -3169782672066587227
+      Background tile_25: 6279293382880867485
+      Background tile_19: -7162729370150886064
+      Background tile_9: 1523528353095181973
+      Background tile_31: -967584760586842980
+      Background tile_30: -5870022900495773027
+      Background tile_6: 3475658493683944772
+      Background tile_11: 1336924959727545164
+      Background tile_29: -8999572386330359590
+      Background tile_7: -1664230583346427727
+      Background tile_12: 5788100742894452168
+      Background tile_3: 2596173128582112203
+      Background tile_5: 1191866228141711844
+      Background tile_26: 4385542776730968792
+      Background tile_16: -7879491486489231065
+      Background tile_4: -1295917410881357996
+      Background tile_18: 4201742868901642704
+      Background tile_10: -3200780698136621646
+      Background tile_21: -3042166087804885853
+      Background tile_22: -1195385568031830848
+      Background tile_17: 4376363779735208544
+      Background tile_27: -8729009720835709907
+      Background tile_20: 4372528969715348334
+      Background tile_28: -405342757326623299
+      Background tile_15: -1337542330431884071
+      Background tile_14: 7807212035659694810
+      Background tile_0: -942072799670320377
+      Background tile_23: -711762273765058292
+      Background tile_24: 8204663089531521863
+      Background tile_8: -2481302284197054007
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -144,7 +144,7 @@ TextureImporter:
       213: -2639269580235569984
     second: Head-Under-Left
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -165,6 +165,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -203,6 +204,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -218,6 +220,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -457,7 +471,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 925f7a1e4e784a440800000000000000
-      internalID: 4946227707867821353
+      internalID: -7551315089737639077
       vertices: []
       indices: 
       edges: []
@@ -688,7 +702,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d73613a410932ed20800000000000000
-      internalID: 3306267754145866621
+      internalID: 4946227707867821353
       vertices: []
       indices: 
       edges: []
@@ -1228,6 +1242,54 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Head-Leaving-Down: 7477903661841271689
+      Tail-Entering-Left: 4560334658692696521
+      Head-Open-Up: -552594905468335966
+      Head-Down: -2277995157423322846
+      Tail-Entering-Up: 3268267396728758620
+      Head-Right: 1353551982470699024
+      Tail-Entering-Down: 2543525842015890873
+      Head-Under-Right: -3949869137553101469
+      Head-Leaving-Left: -2650760870699884478
+      Head-Eating-Right: -2889820285593211914
+      Head-Open-Right: -3016300419699543889
+      Body-Under-Vertical: -7551315089737639077
+      Tail-Down: 1414756091791533751
+      Head-Eating-Left: -5487720773832702740
+      Body-turning-LeftDown: -7881289785890243942
+      Head-Leaving-Up: 3218436238187314210
+      Body-Left: -3677634802174806927
+      Body-Entering-Up: -8199462775320361888
+      Body-Up: 8597762312680160760
+      Head-Eating-Down: 2586301135242521068
+      Head-Leaving-Right: -1731273282626153571
+      Body-turning-UpLeft: 3150851987492707902
+      Body-Under-Turning: -7318262219132464015
+      Body-Entering-Left: 7103538363222828885
+      Tail-Left: 7887837718275711443
+      Head-Entering-Down: -9071241635767526916
+      Head-Under-Up: -5807501586410842427
+      Head-Up: 6599988539887561565
+      Head-Open-Left: 2526392935906708749
+      Head-Entering-Right: 4076942640829046206
+      Body-Right: -4068857264332942513
+      Tail-Right: 5321414387933496475
+      Head-Eating-Up: 5999989506460748097
+      Body-turning-DownRight: -6663114007288243549
+      Body-Entering-Down: -1865052747340508423
+      Head-Left: -9020728686103340959
+      Body-Down: 1577752976170339000
+      Tail-Entering-Right: 5916953213444647329
+      Head-Entering-Up: 7193761296952593075
+      Head-Open-Down: -3389849567031921578
+      Head-Under-Left: -2639269580235569984
+      Body-Entering-Right: -1474850013478463704
+      Tail-Up: -3225891541899252920
+      Head-Entering-Left: 2183103035117069136
+      Head-Under-Down: 4901299110693818850
+      Body-Under-Horizontal: 4946227707867821353
+      Body-turning-RightUp: -8388335786068156705
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
