@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
     #region Atributos del Player
     float inputX, inputY;
+    int pointAccumulated;
     [HideInInspector] public float velMovement;
     [HideInInspector] public Vector3 nextPosition = Vector3.up;
     [HideInInspector] public Vector3 lastPositionBody;
@@ -16,6 +18,7 @@ public class PlayerController : MonoBehaviour
     bool changeDirection = true;
 
     [SerializeField] FoodManager food;
+    [SerializeField] GameController gameController;
 
     [HideInInspector] public Direction currentDirectionHead;
 
@@ -40,8 +43,8 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
     {
-        QualitySettings.vSyncCount = 1;
-        Application.targetFrameRate = 10;
+        Time.timeScale = 1;
+        Application.targetFrameRate = 60;
     }
     void Start()
     {
@@ -62,6 +65,10 @@ public class PlayerController : MonoBehaviour
         SetVelMovement();
         HidePlayer();
         
+        if(Time.timeScale == 0 && Input.GetKey(KeyCode.Space))
+        {
+            ResetScene();
+        }
 
 
 
@@ -187,6 +194,11 @@ public class PlayerController : MonoBehaviour
         
     }
 
+    private void ResetScene()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
+    }
+
     public enum Direction { UP, DOWN, LEFT, RIGHT }
 
     IEnumerator MoveCoroutine()
@@ -220,14 +232,17 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(WaitMoveTail());
             Destroy(collision.gameObject);
             food.CreateFood();
+            pointAccumulated += 10;
         }
         else if (collision.gameObject.tag == "Limit")
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
+
+            gameController.PauseGame();
+            
         }
         else if (collision.gameObject.tag == "Body" && overGround == true)
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
+            gameController.PauseGame();
         }
     }
     #endregion

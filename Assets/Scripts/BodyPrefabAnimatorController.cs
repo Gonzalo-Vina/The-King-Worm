@@ -62,6 +62,7 @@ public class BodyPrefabAnimatorController : MonoBehaviour
     void Start()
     {
         playerHead = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+        animatorController = GetComponent<Animator>();
         
         indexBeforeBody = playerHead.body.Count - 2;
 
@@ -272,8 +273,9 @@ public class BodyPrefabAnimatorController : MonoBehaviour
     {
         if (currentState != newState)
         {
-            StopAllCoroutines();
+
             animatorController.Play(newState);
+            StopAllCoroutines();
 
             currentState = newState;
             lastDirection = currentDirection;
