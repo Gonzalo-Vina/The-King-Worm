@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +8,7 @@ public class PlayerController : MonoBehaviour
 {
     #region Atributos del Player
     float inputX, inputY;
-    int pointAccumulated;
+    public int pointAccumulated;
     [HideInInspector] public float velMovement;
     [HideInInspector] public Vector3 nextPosition = Vector3.up;
     [HideInInspector] public Vector3 lastPositionBody;
@@ -16,6 +17,8 @@ public class PlayerController : MonoBehaviour
     bool moveTail = true;
     [HideInInspector] public bool overGround = true;
     bool changeDirection = true;
+
+
 
     [SerializeField] AudioClip mainSound;
     [SerializeField] AudioSource audioSource;
@@ -57,6 +60,7 @@ public class PlayerController : MonoBehaviour
         tail.position = transform.position + (Vector3.down*2);
         food.CreateFood();
         audioSource.PlayOneShot(mainSound);
+        pointAccumulated = 0;
     }
 
     void Update()

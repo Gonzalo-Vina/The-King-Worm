@@ -7,7 +7,7 @@ using Image = UnityEngine.UI.Image;
 
 public class MenuController : MonoBehaviour
 {
-    [SerializeField] AudioSource audioSource;
+    [SerializeField] public AudioSource audioSource;
 
 
     [SerializeField] Image buttonAudioMenu;
