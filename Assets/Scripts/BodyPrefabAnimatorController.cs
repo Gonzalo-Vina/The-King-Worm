@@ -5,7 +5,8 @@ using UnityEngine;
 public class BodyPrefabAnimatorController : MonoBehaviour
 {
     [SerializeField] public Animator animatorController;
-    [SerializeField] PlayerController playerHead;
+    [SerializeField] GameObject playerGO;
+    [SerializeField] PlayerController playerScript;
 
     int indexBeforeBody;
 
@@ -61,13 +62,13 @@ public class BodyPrefabAnimatorController : MonoBehaviour
 
     void Start()
     {
-        playerHead = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
-        animatorController = GetComponent<Animator>();
+        playerGO = GameObject.Find("Player");
+        playerScript = playerGO.GetComponent<PlayerController>();
         
-        indexBeforeBody = playerHead.body.Count - 2;
+        indexBeforeBody = playerScript.body.Count - 2;
 
-        if (indexBeforeBody == 0) { currentDirection = (Direction)playerHead.body[indexBeforeBody].GetComponent<BodyAnimatorController>().currentDirection; }
-        else { currentDirection = playerHead.body[indexBeforeBody].GetComponent<BodyPrefabAnimatorController>().currentDirection; }
+        if (indexBeforeBody == 0) { currentDirection = (Direction)playerScript.body[indexBeforeBody].GetComponent<BodyAnimatorController>().currentDirection; }
+        else { currentDirection = playerScript.body[indexBeforeBody].GetComponent<BodyPrefabAnimatorController>().currentDirection; }
         if(currentDirection == Direction.LEFT) { ChangeAnimationState(OG_BODY_LEFT); }
         if(currentDirection == Direction.RIGHT) { ChangeAnimationState(OG_BODY_RIGHT); }
         if(currentDirection == Direction.UP) { ChangeAnimationState(OG_BODY_UP); }
@@ -85,13 +86,13 @@ public class BodyPrefabAnimatorController : MonoBehaviour
 
         
 
-        nextPosition = playerHead.lastPositionHead;
+        nextPosition = playerScript.lastPositionHead;
         
     }
 
     private void CheckDirection()
     {
-        directionBeforeBody = playerHead.body[indexBeforeBody].position - this.transform.position;
+        directionBeforeBody = playerScript.body[indexBeforeBody].position - this.transform.position;
 
         if (directionBeforeBody.x < 0)
         {
@@ -250,7 +251,7 @@ public class BodyPrefabAnimatorController : MonoBehaviour
     }
     private void CheckHiddenHead()
     {
-        if (playerHead.overGround == true)
+        if (playerScript.overGround == true)
         {
             overGroundHead = true;
         }
@@ -304,7 +305,7 @@ public class BodyPrefabAnimatorController : MonoBehaviour
     IEnumerator TurnDirection(string clip, Direction newDirection)
     {
         
-        yield return new WaitForSeconds(playerHead.velMovement);
+        yield return new WaitForSeconds(playerScript.velMovement);
         ChangeAnimationState(clip);
         currentDirection = newDirection;
         if (turning == false) CheckTurn();
@@ -312,7 +313,7 @@ public class BodyPrefabAnimatorController : MonoBehaviour
 
     IEnumerator ChangeStateGround(string newState, bool overground)
     {
-        yield return new WaitForSeconds(playerHead.velMovement * 2);
+        yield return new WaitForSeconds(playerScript.velMovement * 2);
         ChangeAnimationState(newState);
         overGroundBody = overground;
     }
