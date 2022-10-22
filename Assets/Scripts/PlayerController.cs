@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     bool moveTail = true;
     [HideInInspector] public bool overGround = true;
     bool changeDirection = true;
-
+    bool isMute;
 
 
     [SerializeField] AudioClip mainSound;
@@ -54,12 +54,14 @@ public class PlayerController : MonoBehaviour
     }
     void Start()
     {
+        isMute = PlayerPrefs.GetInt("MUTED") == 1;
         velMovement = 0.33f;
         StartCoroutine(MoveCoroutine());
         body[0].position = transform.position + Vector3.down;
         tail.position = transform.position + (Vector3.down*2);
         food.CreateFood();
         audioSource.PlayOneShot(mainSound);
+        audioSource.mute = isMute;
         pointAccumulated = 0;
     }
 
@@ -69,15 +71,11 @@ public class PlayerController : MonoBehaviour
         inputY = Input.GetAxis("Vertical");
 
 
+
         SelectDirection();
         SetVelMovement();
         //HidePlayer();
         
-        if(Time.timeScale == 0 && Input.GetKey(KeyCode.Space))
-        {
-            ResetScene();
-        }
-
 
 
         #region Animator
@@ -202,10 +200,7 @@ public class PlayerController : MonoBehaviour
         
     }
 
-    private void ResetScene()
-    {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
-    }
+   
 
     public enum Direction { UP, DOWN, LEFT, RIGHT }
 
@@ -245,13 +240,13 @@ public class PlayerController : MonoBehaviour
         else if (collision.gameObject.tag == "Limit")
         {
 
-            gameController.PauseGame();
+            gameController.GameOver();
             audioSource.Stop();
 
         }
         else if (collision.gameObject.tag == "Body" && overGround == true)
         {
-            gameController.PauseGame();
+            gameController.GameOver();
             audioSource.Stop();
         }
     }

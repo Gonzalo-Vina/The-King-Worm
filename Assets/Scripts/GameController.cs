@@ -10,16 +10,39 @@ public class GameController : MonoBehaviour
     [SerializeField] GameObject backgroundDarkCanvas;
     [SerializeField] PlayerController playerController;
     [SerializeField] TMP_Text textPointPlayer;
-
+    [SerializeField] GameObject panelMenu;
+    bool panelMenuState;
+    [SerializeField] AudioSource audioMain;
 
 
     private void Start()
     {
         backgroundDarkCanvas.SetActive(false);
+        panelMenu.SetActive(false);
+        panelMenuState = false;
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.Escape) && panelMenuState == false)
+        { 
+            panelMenu.SetActive(true);
+            Time.timeScale = 0;
+            panelMenuState = true;
+            //audioMain.mute = true;
+            audioMain.pitch = 0.95f;
+        }
+        else if (Input.GetKeyUp(KeyCode.Escape) && panelMenuState == true)
+        {
+            panelMenu.SetActive(false);
+            Time.timeScale = 1;
+            panelMenuState = false;
+            //audioMain.mute = false;
+            audioMain.pitch = 1f;
+        }
+    }
 
-    public void PauseGame()
+    public void GameOver()
     {
         Time.timeScale = 0;
         backgroundDarkCanvas.SetActive(true);
@@ -40,5 +63,16 @@ public class GameController : MonoBehaviour
     public void BackHome()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
+    public void ResumeGame()
+    {
+        panelMenu.SetActive(false);
+        Time.timeScale = 1;
     }
 }
