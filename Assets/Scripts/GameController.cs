@@ -24,22 +24,21 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Escape) && panelMenuState == false)
+        if (Input.GetKeyUp(KeyCode.Escape) && panelMenuState == false && playerController.isLife == true)
         { 
             panelMenu.SetActive(true);
             Time.timeScale = 0;
             panelMenuState = true;
-            //audioMain.mute = true;
             audioMain.pitch = 0.95f;
         }
-        else if (Input.GetKeyUp(KeyCode.Escape) && panelMenuState == true)
+        else if (Input.GetKeyUp(KeyCode.Escape) && panelMenuState == true && playerController.isLife == true)
         {
             panelMenu.SetActive(false);
             Time.timeScale = 1;
             panelMenuState = false;
-            //audioMain.mute = false;
             audioMain.pitch = 1f;
         }
+
     }
 
     public void GameOver()
@@ -74,5 +73,7 @@ public class GameController : MonoBehaviour
     {
         panelMenu.SetActive(false);
         Time.timeScale = 1;
+
+        audioMain.pitch = 1f;
     }
 }

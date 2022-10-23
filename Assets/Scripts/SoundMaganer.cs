@@ -26,4 +26,9 @@ public class SoundMaganer : MonoBehaviour
     {
         audioSource.PlayOneShot(sound);
     }
+
+    public void PlayAudioWithVolumen(AudioClip sound, float volumen)
+    {
+        audioSource.PlayOneShot(sound,volumen);
+    }
 }

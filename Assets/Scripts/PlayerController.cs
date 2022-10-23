@@ -1,13 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
     #region Atributos del Player
-    float inputX, inputY;
+    public float inputX, inputY;
     public int pointAccumulated;
     [HideInInspector] public float velMovement;
     [HideInInspector] public Vector3 nextPosition = Vector3.up;
@@ -18,7 +19,7 @@ public class PlayerController : MonoBehaviour
     [HideInInspector] public bool overGround = true;
     bool changeDirection = true;
     bool isMute;
-
+    [HideInInspector] public bool isLife;
 
     [SerializeField] AudioClip mainSound;
     [SerializeField] AudioSource audioSource;
@@ -28,7 +29,7 @@ public class PlayerController : MonoBehaviour
 
     [HideInInspector] public Direction currentDirectionHead;
 
-    
+    [SerializeField] Joystick joystickDinamic;
 
     [Header("Parts")]
     [SerializeField] public List<Transform> body = new List<Transform>();
@@ -63,6 +64,7 @@ public class PlayerController : MonoBehaviour
         audioSource.PlayOneShot(mainSound);
         audioSource.mute = isMute;
         pointAccumulated = 0;
+        isLife = true;
     }
 
     void Update()
@@ -70,11 +72,13 @@ public class PlayerController : MonoBehaviour
         inputX = Input.GetAxis("Horizontal");
         inputY = Input.GetAxis("Vertical");
 
-
+        inputX = joystickDinamic.Horizontal;
+        inputY = joystickDinamic.Vertical;
 
         SelectDirection();
         SetVelMovement();
         //HidePlayer();
+        
         
 
 
@@ -239,15 +243,15 @@ public class PlayerController : MonoBehaviour
         }
         else if (collision.gameObject.tag == "Limit")
         {
-
             gameController.GameOver();
             audioSource.Stop();
-
+            isLife = false;
         }
         else if (collision.gameObject.tag == "Body" && overGround == true)
         {
             gameController.GameOver();
             audioSource.Stop();
+            isLife = false;
         }
     }
     #endregion
