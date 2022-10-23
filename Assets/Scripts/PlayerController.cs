@@ -72,8 +72,8 @@ public class PlayerController : MonoBehaviour
         inputX = Input.GetAxis("Horizontal");
         inputY = Input.GetAxis("Vertical");
 
-        inputX = joystickDinamic.Horizontal;
-        inputY = joystickDinamic.Vertical;
+        inputX += joystickDinamic.Horizontal;
+        inputY += joystickDinamic.Vertical;
 
         SelectDirection();
         SetVelMovement();
